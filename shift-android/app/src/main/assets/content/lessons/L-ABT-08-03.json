@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "L-ABT-08-03",
+  "version": "0.1.0",
+  "title": "Brake fluid: why it boils and why the label matters",
+  "section": "about-cars",
+  "moduleId": "ABT-08",
+  "modes": ["easy", "hard", "performance"],
+  "categories": ["everyday-vehicles", "engineering-brake-engineering"],
+  "prerequisites": [],
+  "estimatedMinutes": 8,
+  "difficulty": "beginner",
+  "objectives": [
+    "Explain why brake fluid must stay liquid under heat",
+    "Read dry and wet boiling-point minimums for the three US grades",
+    "Convert a Celsius boiling point to the Fahrenheit value printed on a container"
+  ],
+  "introduction": "Hydraulic brakes work by pushing fluid through lines. If that fluid ever boils, vapour bubbles form in the lines, and bubbles behave very differently from liquid. This lesson covers why the fluid matters, and what the US safety standard actually guarantees.",
+  "blocks": [
+    {"type": "text", "text": "Brake fluid is a liquid that transmits force from the pedal to the wheels. Liquids resist compression; gas does not. That is why heat that turns fluid into vapour is a brake problem."},
+    {"type": "text", "modes": ["easy"], "text": "Think of the fluid like a stiff rope made of liquid. Boiling turns part of the rope into soft bubbles."},
+    {"type": "text", "modes": ["hard", "performance"], "text": "The US standard tests two values. The dry value is for fresh fluid. The wet value is for fluid that has absorbed moisture. Glycol-based fluids absorb moisture over time, so real fluid in a car drifts from the dry value towards the wet value."},
+    {"type": "specification-table", "caption": "US minimum equilibrium reflux boiling points (ERBP)", "figures": [
+      {"label": "DOT 3 dry minimum", "value": 205, "unit": "°C", "sourceId": "S44", "locator": "S5.1.1(a)"},
+      {"label": "DOT 4 dry minimum", "value": 230, "unit": "°C", "sourceId": "S44", "locator": "S5.1.1(b)"},
+      {"label": "Top-tier dry minimum", "value": 260, "unit": "°C", "sourceId": "S44", "locator": "S5.1.1(c)"},
+      {"label": "DOT 3 wet minimum", "value": 140, "unit": "°C", "sourceId": "S44", "locator": "S5.1.2(a)"},
+      {"label": "DOT 4 wet minimum", "value": 155, "unit": "°C", "sourceId": "S44", "locator": "S5.1.2(b)"},
+      {"label": "Top-tier wet minimum", "value": 180, "unit": "°C", "sourceId": "S44", "locator": "S5.1.2(c)"}
+    ]},
+    {"type": "text", "text": "Containers must show the minimum wet boiling point, in Fahrenheit, of the fluid inside. For DOT 4 the legal minimum is 311 °F, and a particular product may state a higher figure."},
+    {"type": "text", "modes": ["performance"], "text": "A higher grade number is not automatically better for your car. Fluid choice depends on what the vehicle manual specifies, including seal compatibility and ABS. Do not assume a motorsport-style fluid suits a road car."},
+    {"type": "safety-note", "level": "warning", "registerId": "SC03", "text": "Silicone-based DOT 5 fluid must not be used in ABS systems and must not be mixed with glycol-based fluids. Always use the fluid your vehicle's manual specifies."},
+    {"type": "stop-and-refer", "text": "Changing or bleeding brake fluid, and checking the brakes afterwards, belongs with a qualified technician following the manufacturer's procedure. Do not drive a vehicle whose braking system has not been verified."}
+  ],
+  "keyTerms": [
+    {"term": "Equilibrium reflux boiling point (ERBP)", "definition": "The standardised test temperature at which brake fluid boils under controlled lab conditions."},
+    {"term": "Hygroscopic", "definition": "Absorbs moisture from the air."}
+  ],
+  "misconceptions": [
+    {"belief": "All brake fluids can be mixed.", "correction": "Glycol-based grades are one family; silicone-based DOT 5 is a different family and is not for ABS.", "sourceIds": ["S24"]}
+  ],
+  "summary": "Brake fluid has to stay liquid when hot. The US standard sets minimum dry and wet boiling points, wet being the realistic figure after moisture pickup. Check the label and the vehicle manual, and leave service to qualified people.",
+  "questions": [
+    {"id": "Q1", "type": "multiple-choice", "difficulty": "easy", "prompt": "Why does boiling brake fluid cause a problem?", "options": [{"id": "a", "text": "Vapour bubbles are compressible, so force no longer transmits properly"}, {"id": "b", "text": "Boiling makes the fluid thicker"}, {"id": "c", "text": "Boiling cools the calipers"}], "correctOptionIds": ["a"], "explanation": "Liquid resists compression and vapour does not, so bubbles in the lines weaken the pedal's effect.", "sourceIds": ["S24"]},
+    {"id": "Q2", "type": "true-false", "difficulty": "easy", "prompt": "Silicone-based DOT 5 fluid is suitable for ABS-equipped cars.", "correctBoolean": false, "explanation": "Silicone fluid is not for ABS systems. Check the vehicle manual.", "sourceIds": ["S24"]},
+    {"id": "Q3", "type": "calculation", "difficulty": "medium", "prompt": "The US wet minimum for DOT 4 is 155 °C. What is that in °F?", "correctNumber": {"value": 311, "tolerance": 1, "unit": "°F"}, "explanation": "°F = °C × 9/5 + 32 = 155 × 1.8 + 32 = 311. NHTSA's interpretation confirms 311 °F as the DOT 4 wet minimum.", "sourceIds": ["S44", "S45"]}
+  ],
+  "references": [
+    {"sourceId": "S44", "locator": "S5.1.1 and S5.1.2", "supports": "Dry and wet minimum boiling points"},
+    {"sourceId": "S45", "locator": "Interpretation 12089", "supports": "Label shows minimum wet boiling point in °F; DOT 4 minimum is 311 °F"},
+    {"sourceId": "S24", "locator": "Trade explainers", "supports": "Hygroscopic behaviour; DOT 5 not for ABS; compressibility of vapour"}
+  ],
+  "safety": {"level": "strict", "registerIds": ["SC03"], "masteryThreshold": 1},
+  "jurisdiction": {"scope": "region-specific", "regions": ["US"]},
+  "vehicleSpecific": {"isVehicleSpecific": false},
+  "review": {"state": "draft", "openIssues": ["Confirm top-tier label (DOT 5 vs 5.1) in full eCFR text", "Replace S24 trade claims with a hydraulic-brake textbook source"]},
+  "revisedOn": "2026-10-19",
+  "nextLessonId": "L-ABT-08-06"
+}

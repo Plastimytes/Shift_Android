@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://shift.example/schema/lesson/1.0.0",
+  "title": "SHIFT lesson",
+  "type": "object",
+  "required": ["schemaVersion","id","version","title","section","moduleId","modes","estimatedMinutes","difficulty","objectives","introduction","blocks","keyTerms","summary","questions","references","safety","jurisdiction","review","revisedOn"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {"const": "1.0.0"},
+    "id": {"type": "string", "pattern": "^L-(ABT|BLD|RPR|MOD)-[A-Z0-9]{2,3}-[0-9]{2}$"},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "title": {"type": "string", "minLength": 3},
+    "section": {"enum": ["about-cars","build-the-car","repair-and-modify"]},
+    "moduleId": {"type": "string"},
+    "modes": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["easy","hard","performance","top-formula"]}},
+    "categories": {"type": "array", "items": {"type": "string"}},
+    "prerequisites": {"type": "array", "items": {"type": "string"}},
+    "estimatedMinutes": {"type": "integer", "minimum": 1, "maximum": 60},
+    "difficulty": {"enum": ["beginner","intermediate","advanced","expert"]},
+    "objectives": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "introduction": {"type": "string"},
+    "blocks": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/block"}},
+    "keyTerms": {"type": "array", "items": {"type": "object", "required": ["term","definition"], "additionalProperties": false, "properties": {"term": {"type":"string"}, "definition": {"type":"string"}}}},
+    "misconceptions": {"type": "array", "items": {"type": "object", "required": ["belief","correction","sourceIds"], "additionalProperties": false, "properties": {"belief": {"type":"string"}, "correction": {"type":"string"}, "sourceIds": {"$ref": "#/$defs/sourceIds"}}}},
+    "summary": {"type": "string"},
+    "questions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/question"}},
+    "references": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/reference"}},
+    "safety": {
+      "type": "object", "required": ["level","registerIds"], "additionalProperties": false,
+      "properties": {"level": {"enum": ["none","standard","strict"]}, "registerIds": {"type": "array", "items": {"type": "string", "pattern": "^SC[0-9]{2}$"}}, "masteryThreshold": {"type": "number", "minimum": 0.8, "maximum": 1}}
+    },
+    "jurisdiction": {
+      "type": "object", "required": ["scope"], "additionalProperties": false,
+      "properties": {"scope": {"enum": ["universal","region-specific"]}, "regions": {"type": "array", "items": {"type": "string"}}},
+      "if": {"properties": {"scope": {"const": "region-specific"}}}, "then": {"required": ["regions"]}
+    },
+    "vehicleSpecific": {
+      "type": "object", "required": ["isVehicleSpecific"], "additionalProperties": false,
+      "properties": {"isVehicleSpecific": {"type":"boolean"}, "specificationSourceId": {"type":"string"}},
+      "if": {"properties": {"isVehicleSpecific": {"const": true}}}, "then": {"required": ["specificationSourceId"]}
+    },
+    "review": {
+      "type": "object", "required": ["state"], "additionalProperties": false,
+      "properties": {"state": {"enum": ["draft","source-checked","expert-reviewed","published"]}, "reviewer": {"type":"string"}, "reviewedOn": {"type":"string", "format":"date"}, "openIssues": {"type":"array","items":{"type":"string"}}},
+      "if": {"properties": {"state": {"enum": ["expert-reviewed","published"]}}}, "then": {"required": ["reviewer","reviewedOn"]}
+    },
+    "revisedOn": {"type": "string", "format": "date"},
+    "nextLessonId": {"type": "string"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"safety": {"properties": {"level": {"const": "strict"}}, "required": ["level"]}}, "required": ["safety"]},
+      "then": {"properties": {"blocks": {"contains": {"properties": {"type": {"const": "stop-and-refer"}}, "required": ["type"]}}}}
+    }
+  ],
+  "$defs": {
+    "sourceIds": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^S[0-9]{2,3}$"}},
+    "reference": {"type": "object", "required": ["sourceId","locator","supports"], "additionalProperties": false, "properties": {"sourceId": {"type":"string","pattern":"^S[0-9]{2,3}$"}, "locator": {"type":"string"}, "supports": {"type":"string"}}},
+    "block": {
+      "oneOf": [
+        {"type": "object", "required": ["type","text"], "additionalProperties": false, "properties": {"type": {"const":"text"}, "text": {"type":"string"}, "modes": {"type":"array","items":{"enum":["easy","hard","performance","top-formula"]}}}},
+        {"type": "object", "required": ["type","figures"], "additionalProperties": false, "description": "Every number must carry its own source and locator. This is how the no-invented-specs rule is enforced.", "properties": {"type": {"const":"specification-table"}, "caption": {"type":"string"}, "figures": {"type":"array","minItems":1,"items":{"type":"object","required":["label","value","unit","sourceId","locator"],"additionalProperties":false,"properties":{"label":{"type":"string"},"value":{"type":"number"},"unit":{"type":"string"},"sourceId":{"type":"string","pattern":"^S[0-9]{2,3}$"},"locator":{"type":"string"}}}}}},
+        {"type": "object", "required": ["type","assetId","altText"], "additionalProperties": false, "properties": {"type": {"const":"diagram"}, "assetId": {"type":"string"}, "altText": {"type":"string","minLength":10}, "origin": {"enum":["original","licensed","simulated"]}}},
+        {"type": "object", "required": ["type","toolId"], "additionalProperties": false, "properties": {"type": {"const":"interactive"}, "toolId": {"enum":["engine-simulator","diagnostic-simulator","virtual-garage","calculator"]}, "config": {"type":"object"}}},
+        {"type": "object", "required": ["type","level","text"], "additionalProperties": false, "properties": {"type": {"const":"safety-note"}, "level": {"enum":["caution","warning","danger"]}, "text": {"type":"string"}, "registerId": {"type":"string","pattern":"^SC[0-9]{2}$"}}},
+        {"type": "object", "required": ["type","text"], "additionalProperties": false, "description": "Required on every strict-safety lesson: tells the learner when to stop and use a professional or the OEM procedure.", "properties": {"type": {"const":"stop-and-refer"}, "text": {"type":"string"}}}
+      ]
+    },
+    "question": {
+      "type": "object", "required": ["id","type","prompt","explanation","difficulty","sourceIds"], "additionalProperties": false,
+      "properties": {
+        "id": {"type":"string"},
+        "type": {"enum":["multiple-choice","multi-select","true-false","calculation","ordering","matching","label-diagram","diagnosis-scenario"]},
+        "prompt": {"type":"string"},
+        "options": {"type":"array","items":{"type":"object","required":["id","text"],"additionalProperties":false,"properties":{"id":{"type":"string"},"text":{"type":"string"}}}},
+        "correctOptionIds": {"type":"array","items":{"type":"string"}},
+        "correctBoolean": {"type":"boolean"},
+        "correctNumber": {"type":"object","required":["value","tolerance","unit"],"additionalProperties":false,"properties":{"value":{"type":"number"},"tolerance":{"type":"number"},"unit":{"type":"string"}}},
+        "explanation": {"type":"string"},
+        "difficulty": {"enum":["easy","medium","hard"]},
+        "sourceIds": {"$ref": "#/$defs/sourceIds"}
+      },
+      "allOf": [
+        {"if": {"properties": {"type": {"enum":["multiple-choice","multi-select"]}}}, "then": {"required": ["options","correctOptionIds"]}},
+        {"if": {"properties": {"type": {"const":"true-false"}}}, "then": {"required": ["correctBoolean"]}},
+        {"if": {"properties": {"type": {"const":"calculation"}}}, "then": {"required": ["correctNumber"]}}
+      ]
+    }
+  }
+}

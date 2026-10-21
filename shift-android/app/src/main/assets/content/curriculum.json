@@ -1,0 +1,389 @@
+{
+ "modules": [
+  {
+   "id": "ABT-01",
+   "section": "about-cars",
+   "title": "Automotive foundations",
+   "tier": "v1 slice",
+   "plannedLessons": 8
+  },
+  {
+   "id": "ABT-02",
+   "section": "about-cars",
+   "title": "Engine fundamentals",
+   "tier": "v1 slice",
+   "plannedLessons": 16
+  },
+  {
+   "id": "ABT-03",
+   "section": "about-cars",
+   "title": "Transmission and drivetrain",
+   "tier": "v1.x",
+   "plannedLessons": 10
+  },
+  {
+   "id": "ABT-04",
+   "section": "about-cars",
+   "title": "Fuel, air and exhaust",
+   "tier": "v1.x",
+   "plannedLessons": 10
+  },
+  {
+   "id": "ABT-05",
+   "section": "about-cars",
+   "title": "Cooling and lubrication",
+   "tier": "v1 slice",
+   "plannedLessons": 8
+  },
+  {
+   "id": "ABT-06",
+   "section": "about-cars",
+   "title": "Electrical and electronic systems",
+   "tier": "v1 slice",
+   "plannedLessons": 14
+  },
+  {
+   "id": "ABT-07",
+   "section": "about-cars",
+   "title": "Suspension, steering and chassis",
+   "tier": "v1.x",
+   "plannedLessons": 12
+  },
+  {
+   "id": "ABT-08",
+   "section": "about-cars",
+   "title": "Brakes, wheels and tires",
+   "tier": "v1 slice",
+   "plannedLessons": 12
+  },
+  {
+   "id": "ABT-09",
+   "section": "about-cars",
+   "title": "Vehicle dynamics",
+   "tier": "v1.x",
+   "plannedLessons": 10
+  },
+  {
+   "id": "ABT-10",
+   "section": "about-cars",
+   "title": "Body, interior, safety and aerodynamics",
+   "tier": "v1.x",
+   "plannedLessons": 10
+  },
+  {
+   "id": "ABT-11",
+   "section": "about-cars",
+   "title": "Hybrid and electric vehicles",
+   "tier": "v1 slice",
+   "plannedLessons": 14
+  },
+  {
+   "id": "ABT-12",
+   "section": "about-cars",
+   "title": "Automotive culture and motorsport",
+   "tier": "v1 slice",
+   "plannedLessons": 10
+  },
+  {
+   "id": "BLD-01",
+   "section": "build-the-car",
+   "title": "Plan a vehicle project",
+   "tier": "v1 slice",
+   "plannedLessons": 6
+  },
+  {
+   "id": "BLD-02",
+   "section": "build-the-car",
+   "title": "Understand the donor vehicle",
+   "tier": "v1.x",
+   "plannedLessons": 8
+  },
+  {
+   "id": "BLD-03",
+   "section": "build-the-car",
+   "title": "Engine building",
+   "tier": "later",
+   "plannedLessons": 14
+  },
+  {
+   "id": "BLD-04",
+   "section": "build-the-car",
+   "title": "Transmission and drivetrain assembly",
+   "tier": "later",
+   "plannedLessons": 8
+  },
+  {
+   "id": "BLD-05",
+   "section": "build-the-car",
+   "title": "Chassis, suspension and steering",
+   "tier": "later",
+   "plannedLessons": 8
+  },
+  {
+   "id": "BLD-06",
+   "section": "build-the-car",
+   "title": "Braking system assembly",
+   "tier": "later",
+   "plannedLessons": 8
+  },
+  {
+   "id": "BLD-07",
+   "section": "build-the-car",
+   "title": "Electrical system integration",
+   "tier": "later",
+   "plannedLessons": 8
+  },
+  {
+   "id": "BLD-08",
+   "section": "build-the-car",
+   "title": "Fuel, cooling and exhaust integration",
+   "tier": "later",
+   "plannedLessons": 8
+  },
+  {
+   "id": "BLD-09",
+   "section": "build-the-car",
+   "title": "Bodywork and fabrication",
+   "tier": "later",
+   "plannedLessons": 8
+  },
+  {
+   "id": "BLD-10",
+   "section": "build-the-car",
+   "title": "Vehicle assembly integration",
+   "tier": "later",
+   "plannedLessons": 6
+  },
+  {
+   "id": "BLD-11",
+   "section": "build-the-car",
+   "title": "Testing and validation",
+   "tier": "later",
+   "plannedLessons": 8
+  },
+  {
+   "id": "BLD-12",
+   "section": "build-the-car",
+   "title": "Build projects",
+   "tier": "later",
+   "plannedLessons": 8
+  },
+  {
+   "id": "RPR-A01",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Engine",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A02",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Transmission and clutch",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A03",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Differential",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A04",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Fuel delivery",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A05",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Ignition",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A06",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Intake",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A07",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Exhaust and emissions",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A08",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Cooling",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A09",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Lubrication",
+   "tier": "v1 slice",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A10",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Electrical, charging and starting",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A11",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Sensors and actuators",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A12",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: ECU and networks",
+   "tier": "v1 slice",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A13",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Suspension",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A14",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Steering",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A15",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Brakes",
+   "tier": "v1 slice",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A16",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Wheels and tires",
+   "tier": "v1 slice",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A17",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Bodywork",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A18",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: HVAC",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A19",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: Hybrid systems",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-A20",
+   "section": "repair-and-modify",
+   "title": "Repair curriculum: EV systems",
+   "tier": "later",
+   "plannedLessons": 5
+  },
+  {
+   "id": "RPR-B",
+   "section": "repair-and-modify",
+   "title": "Diagnostic cases (23 symptoms)",
+   "tier": "v1 slice",
+   "plannedLessons": 23
+  },
+  {
+   "id": "MOD-01",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Intake and exhaust",
+   "tier": "later",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-02",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Forced induction and intercooling",
+   "tier": "v1 slice",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-03",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Engine internals and compression",
+   "tier": "later",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-04",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Fuel system, ECU and ignition tuning",
+   "tier": "later",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-05",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Cooling and oil cooling",
+   "tier": "later",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-06",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Clutch, transmission, differential, gearing",
+   "tier": "later",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-07",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Suspension, alignment, dampers, springs, bars",
+   "tier": "later",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-08",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Brakes, wheels and tires",
+   "tier": "later",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-09",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Aero, weight and chassis reinforcement",
+   "tier": "later",
+   "plannedLessons": 4
+  },
+  {
+   "id": "MOD-10",
+   "section": "repair-and-modify",
+   "title": "Modification pathway: Swaps, conversions, EV performance, track, off-road, restomod",
+   "tier": "later",
+   "plannedLessons": 4
+  }
+ ]
+}

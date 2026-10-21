@@ -1,0 +1,721 @@
+{
+ "groups": [
+  {
+   "id": "A",
+   "name": "Japanese culture and engineering",
+   "short": "Japan"
+  },
+  {
+   "id": "B",
+   "name": "German and European performance",
+   "short": "Europe"
+  },
+  {
+   "id": "C",
+   "name": "American engineering",
+   "short": "USA"
+  },
+  {
+   "id": "D",
+   "name": "Sports, racing and competition",
+   "short": "Racing"
+  },
+  {
+   "id": "E",
+   "name": "Everyday and practical vehicles",
+   "short": "Everyday"
+  },
+  {
+   "id": "F",
+   "name": "Trucks, commercial and heavy machinery",
+   "short": "Trucks"
+  },
+  {
+   "id": "G",
+   "name": "Off-road and utility engineering",
+   "short": "Off-road"
+  },
+  {
+   "id": "H",
+   "name": "Classic, historical and restoration",
+   "short": "Classic"
+  },
+  {
+   "id": "I",
+   "name": "Powertrain and propulsion",
+   "short": "Powertrain"
+  },
+  {
+   "id": "J",
+   "name": "Engineering and specialist disciplines",
+   "short": "Engineering"
+  }
+ ],
+ "items": [
+  {
+   "id": "a-jdm",
+   "name": "JDM",
+   "groupId": "A"
+  },
+  {
+   "id": "a-japanese-sports-cars",
+   "name": "Japanese sports cars",
+   "groupId": "A"
+  },
+  {
+   "id": "a-performance-sedans",
+   "name": "performance sedans",
+   "groupId": "A"
+  },
+  {
+   "id": "a-coupes",
+   "name": "coupes",
+   "groupId": "A"
+  },
+  {
+   "id": "a-hot-hatches",
+   "name": "hot hatches",
+   "groupId": "A"
+  },
+  {
+   "id": "a-kei-cars",
+   "name": "kei cars",
+   "groupId": "A"
+  },
+  {
+   "id": "a-drift-cars",
+   "name": "drift cars",
+   "groupId": "A"
+  },
+  {
+   "id": "a-time-attack-cars",
+   "name": "time-attack cars",
+   "groupId": "A"
+  },
+  {
+   "id": "a-touring-cars",
+   "name": "touring cars",
+   "groupId": "A"
+  },
+  {
+   "id": "a-rally-cars",
+   "name": "rally cars",
+   "groupId": "A"
+  },
+  {
+   "id": "a-off-road-vehicles",
+   "name": "off-road vehicles",
+   "groupId": "A"
+  },
+  {
+   "id": "a-engine-families-and-tuning-traditions",
+   "name": "engine families and tuning traditions",
+   "groupId": "A"
+  },
+  {
+   "id": "b-dtm",
+   "name": "DTM",
+   "groupId": "B"
+  },
+  {
+   "id": "b-touring-cars",
+   "name": "touring cars",
+   "groupId": "B"
+  },
+  {
+   "id": "b-german-performance-sedans",
+   "name": "German performance sedans",
+   "groupId": "B"
+  },
+  {
+   "id": "b-european-sports-cars-supercars-hypercars",
+   "name": "European sports cars, supercars, hypercars",
+   "groupId": "B"
+  },
+  {
+   "id": "b-hot-hatches",
+   "name": "hot hatches",
+   "groupId": "B"
+  },
+  {
+   "id": "b-gt-racing",
+   "name": "GT racing",
+   "groupId": "B"
+  },
+  {
+   "id": "b-endurance-racing",
+   "name": "endurance racing",
+   "groupId": "B"
+  },
+  {
+   "id": "b-rally-engineering",
+   "name": "rally engineering",
+   "groupId": "B"
+  },
+  {
+   "id": "b-luxury",
+   "name": "luxury",
+   "groupId": "B"
+  },
+  {
+   "id": "b-diesel-performance",
+   "name": "diesel performance",
+   "groupId": "B"
+  },
+  {
+   "id": "b-tuning-culture",
+   "name": "tuning culture",
+   "groupId": "B"
+  },
+  {
+   "id": "c-muscle-cars",
+   "name": "Muscle cars",
+   "groupId": "C"
+  },
+  {
+   "id": "c-pony-cars",
+   "name": "pony cars",
+   "groupId": "C"
+  },
+  {
+   "id": "c-sports-cars",
+   "name": "sports cars",
+   "groupId": "C"
+  },
+  {
+   "id": "c-drag-racing",
+   "name": "drag racing",
+   "groupId": "C"
+  },
+  {
+   "id": "c-nascar",
+   "name": "NASCAR",
+   "groupId": "C"
+  },
+  {
+   "id": "c-hot-rods",
+   "name": "hot rods",
+   "groupId": "C"
+  },
+  {
+   "id": "c-restomods",
+   "name": "restomods",
+   "groupId": "C"
+  },
+  {
+   "id": "c-classics",
+   "name": "classics",
+   "groupId": "C"
+  },
+  {
+   "id": "c-pickups",
+   "name": "pickups",
+   "groupId": "C"
+  },
+  {
+   "id": "c-off-road-performance",
+   "name": "off-road performance",
+   "groupId": "C"
+  },
+  {
+   "id": "c-v8-engineering",
+   "name": "V8 engineering",
+   "groupId": "C"
+  },
+  {
+   "id": "c-large-displacement-na-engines",
+   "name": "large-displacement NA engines",
+   "groupId": "C"
+  },
+  {
+   "id": "c-supercharged-turbo-builds",
+   "name": "supercharged/turbo builds",
+   "groupId": "C"
+  },
+  {
+   "id": "d-sports-cars",
+   "name": "Sports cars",
+   "groupId": "D"
+  },
+  {
+   "id": "d-supercars",
+   "name": "supercars",
+   "groupId": "D"
+  },
+  {
+   "id": "d-hypercars",
+   "name": "hypercars",
+   "groupId": "D"
+  },
+  {
+   "id": "d-formula-1",
+   "name": "Formula 1",
+   "groupId": "D"
+  },
+  {
+   "id": "d-other-formula-series",
+   "name": "other formula series",
+   "groupId": "D"
+  },
+  {
+   "id": "d-gt3-gt4",
+   "name": "GT3/GT4",
+   "groupId": "D"
+  },
+  {
+   "id": "d-endurance",
+   "name": "endurance",
+   "groupId": "D"
+  },
+  {
+   "id": "d-rally",
+   "name": "rally",
+   "groupId": "D"
+  },
+  {
+   "id": "d-rallycross",
+   "name": "rallycross",
+   "groupId": "D"
+  },
+  {
+   "id": "d-drifting",
+   "name": "drifting",
+   "groupId": "D"
+  },
+  {
+   "id": "d-drag",
+   "name": "drag",
+   "groupId": "D"
+  },
+  {
+   "id": "d-time-attack",
+   "name": "time attack",
+   "groupId": "D"
+  },
+  {
+   "id": "d-hill-climb",
+   "name": "hill climb",
+   "groupId": "D"
+  },
+  {
+   "id": "d-autocross",
+   "name": "autocross",
+   "groupId": "D"
+  },
+  {
+   "id": "d-touring",
+   "name": "touring",
+   "groupId": "D"
+  },
+  {
+   "id": "d-track-day",
+   "name": "track-day",
+   "groupId": "D"
+  },
+  {
+   "id": "d-electric-motorsport",
+   "name": "electric motorsport",
+   "groupId": "D"
+  },
+  {
+   "id": "d-hybrid-performance",
+   "name": "hybrid performance",
+   "groupId": "D"
+  },
+  {
+   "id": "e-sedans",
+   "name": "Sedans",
+   "groupId": "E"
+  },
+  {
+   "id": "e-hatchbacks",
+   "name": "hatchbacks",
+   "groupId": "E"
+  },
+  {
+   "id": "e-coupes",
+   "name": "coupes",
+   "groupId": "E"
+  },
+  {
+   "id": "e-wagons",
+   "name": "wagons",
+   "groupId": "E"
+  },
+  {
+   "id": "e-compacts",
+   "name": "compacts",
+   "groupId": "E"
+  },
+  {
+   "id": "e-city-cars",
+   "name": "city cars",
+   "groupId": "E"
+  },
+  {
+   "id": "e-suvs",
+   "name": "SUVs",
+   "groupId": "E"
+  },
+  {
+   "id": "e-crossovers",
+   "name": "crossovers",
+   "groupId": "E"
+  },
+  {
+   "id": "e-mpvs",
+   "name": "MPVs",
+   "groupId": "E"
+  },
+  {
+   "id": "e-family",
+   "name": "family",
+   "groupId": "E"
+  },
+  {
+   "id": "e-luxury",
+   "name": "luxury",
+   "groupId": "E"
+  },
+  {
+   "id": "e-executive",
+   "name": "executive",
+   "groupId": "E"
+  },
+  {
+   "id": "e-economy",
+   "name": "economy",
+   "groupId": "E"
+  },
+  {
+   "id": "e-hybrid",
+   "name": "hybrid",
+   "groupId": "E"
+  },
+  {
+   "id": "e-electric",
+   "name": "electric",
+   "groupId": "E"
+  },
+  {
+   "id": "e-diesel-passenger-vehicles",
+   "name": "diesel passenger vehicles",
+   "groupId": "E"
+  },
+  {
+   "id": "f-pickups",
+   "name": "Pickups",
+   "groupId": "F"
+  },
+  {
+   "id": "f-heavy-duty-pickups",
+   "name": "heavy-duty pickups",
+   "groupId": "F"
+  },
+  {
+   "id": "f-vans",
+   "name": "vans",
+   "groupId": "F"
+  },
+  {
+   "id": "f-delivery",
+   "name": "delivery",
+   "groupId": "F"
+  },
+  {
+   "id": "f-box-trucks",
+   "name": "box trucks",
+   "groupId": "F"
+  },
+  {
+   "id": "f-tractor-units",
+   "name": "tractor units",
+   "groupId": "F"
+  },
+  {
+   "id": "f-heavy-diesel",
+   "name": "heavy diesel",
+   "groupId": "F"
+  },
+  {
+   "id": "f-utility-off-road",
+   "name": "utility off-road",
+   "groupId": "F"
+  },
+  {
+   "id": "f-construction",
+   "name": "construction",
+   "groupId": "F"
+  },
+  {
+   "id": "f-agricultural",
+   "name": "agricultural",
+   "groupId": "F"
+  },
+  {
+   "id": "f-fleet",
+   "name": "fleet",
+   "groupId": "F"
+  },
+  {
+   "id": "f-commercial-ev",
+   "name": "commercial EV",
+   "groupId": "F"
+  },
+  {
+   "id": "f-towing-and-load-management",
+   "name": "towing and load management",
+   "groupId": "F"
+  },
+  {
+   "id": "g-4x4",
+   "name": "4x4",
+   "groupId": "G"
+  },
+  {
+   "id": "g-awd",
+   "name": "AWD",
+   "groupId": "G"
+  },
+  {
+   "id": "g-rock-crawlers",
+   "name": "rock crawlers",
+   "groupId": "G"
+  },
+  {
+   "id": "g-overlanding",
+   "name": "overlanding",
+   "groupId": "G"
+  },
+  {
+   "id": "g-rally-raid",
+   "name": "rally raid",
+   "groupId": "G"
+  },
+  {
+   "id": "g-desert-racing",
+   "name": "desert racing",
+   "groupId": "G"
+  },
+  {
+   "id": "g-trophy-trucks",
+   "name": "trophy trucks",
+   "groupId": "G"
+  },
+  {
+   "id": "g-utility",
+   "name": "utility",
+   "groupId": "G"
+  },
+  {
+   "id": "g-expedition",
+   "name": "expedition",
+   "groupId": "G"
+  },
+  {
+   "id": "g-general-military-vehicle-engineering",
+   "name": "general military vehicle engineering",
+   "groupId": "G"
+  },
+  {
+   "id": "g-suspension-travel",
+   "name": "suspension travel",
+   "groupId": "G"
+  },
+  {
+   "id": "g-differentials-and-transfer-cases",
+   "name": "differentials and transfer cases",
+   "groupId": "G"
+  },
+  {
+   "id": "g-traction-management",
+   "name": "traction management",
+   "groupId": "G"
+  },
+  {
+   "id": "h-vintage",
+   "name": "Vintage",
+   "groupId": "H"
+  },
+  {
+   "id": "h-pre-war",
+   "name": "pre-war",
+   "groupId": "H"
+  },
+  {
+   "id": "h-classics",
+   "name": "classics",
+   "groupId": "H"
+  },
+  {
+   "id": "h-historic-racing",
+   "name": "historic racing",
+   "groupId": "H"
+  },
+  {
+   "id": "h-classic-muscle",
+   "name": "classic muscle",
+   "groupId": "H"
+  },
+  {
+   "id": "h-classic-european-and-japanese",
+   "name": "classic European and Japanese",
+   "groupId": "H"
+  },
+  {
+   "id": "h-concours",
+   "name": "concours",
+   "groupId": "H"
+  },
+  {
+   "id": "h-restomods",
+   "name": "restomods",
+   "groupId": "H"
+  },
+  {
+   "id": "h-period-correct-restoration",
+   "name": "period-correct restoration",
+   "groupId": "H"
+  },
+  {
+   "id": "h-historic-powertrains",
+   "name": "historic powertrains",
+   "groupId": "H"
+  },
+  {
+   "id": "h-design-history",
+   "name": "design history",
+   "groupId": "H"
+  },
+  {
+   "id": "i-inline-v-flat-boxer-and-rotary-engines",
+   "name": "Inline, V, flat/boxer and rotary engines",
+   "groupId": "I"
+  },
+  {
+   "id": "i-na-turbo-supercharged",
+   "name": "NA, turbo, supercharged",
+   "groupId": "I"
+  },
+  {
+   "id": "i-diesel",
+   "name": "diesel",
+   "groupId": "I"
+  },
+  {
+   "id": "i-hybrid",
+   "name": "hybrid",
+   "groupId": "I"
+  },
+  {
+   "id": "i-phev",
+   "name": "PHEV",
+   "groupId": "I"
+  },
+  {
+   "id": "i-bev",
+   "name": "BEV",
+   "groupId": "I"
+  },
+  {
+   "id": "i-hydrogen-fcev",
+   "name": "hydrogen FCEV",
+   "groupId": "I"
+  },
+  {
+   "id": "i-manual-automatic-dct-cvt",
+   "name": "manual, automatic, DCT, CVT",
+   "groupId": "I"
+  },
+  {
+   "id": "i-fwd-rwd-awd-4wd",
+   "name": "FWD, RWD, AWD, 4WD",
+   "groupId": "I"
+  },
+  {
+   "id": "j-engine-building",
+   "name": "Engine building",
+   "groupId": "J"
+  },
+  {
+   "id": "j-ecu-calibration",
+   "name": "ECU calibration",
+   "groupId": "J"
+  },
+  {
+   "id": "j-electronics",
+   "name": "electronics",
+   "groupId": "J"
+  },
+  {
+   "id": "j-suspension-brake-chassis-engineering",
+   "name": "suspension, brake, chassis engineering",
+   "groupId": "J"
+  },
+  {
+   "id": "j-aerodynamics",
+   "name": "aerodynamics",
+   "groupId": "J"
+  },
+  {
+   "id": "j-cad",
+   "name": "CAD",
+   "groupId": "J"
+  },
+  {
+   "id": "j-simulation",
+   "name": "simulation",
+   "groupId": "J"
+  },
+  {
+   "id": "j-fabrication-and-welding",
+   "name": "fabrication and welding",
+   "groupId": "J"
+  },
+  {
+   "id": "j-materials",
+   "name": "materials",
+   "groupId": "J"
+  },
+  {
+   "id": "j-manufacturing",
+   "name": "manufacturing",
+   "groupId": "J"
+  },
+  {
+   "id": "j-diagnostics",
+   "name": "diagnostics",
+   "groupId": "J"
+  },
+  {
+   "id": "j-nvh",
+   "name": "NVH",
+   "groupId": "J"
+  },
+  {
+   "id": "j-motorsport-setup",
+   "name": "motorsport setup",
+   "groupId": "J"
+  },
+  {
+   "id": "j-vehicle-dynamics",
+   "name": "vehicle dynamics",
+   "groupId": "J"
+  },
+  {
+   "id": "j-hv-systems",
+   "name": "HV systems",
+   "groupId": "J"
+  },
+  {
+   "id": "j-embedded-software",
+   "name": "embedded software",
+   "groupId": "J"
+  },
+  {
+   "id": "j-adas-and-autonomy",
+   "name": "ADAS and autonomy",
+   "groupId": "J"
+  }
+ ]
+}

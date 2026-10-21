@@ -1,0 +1,445 @@
+{
+ "sources": [
+  {
+   "id": "S01",
+   "title": "ASE Automobile Study Guide 2025",
+   "issuer": "National Institute for Automotive Service Excellence (ASE)",
+   "url": "https://www.ase.com/uploads/ASE_Automobile_Study_Guide_2025_250109_210800.pdf",
+   "tier": "B",
+   "reuse": "Use as structural reference only; do not copy text (ASE copyright)",
+   "confidence": "High"
+  },
+  {
+   "id": "S02",
+   "title": "ASE MAST test specifications and task lists (2022 standard)",
+   "issuer": "ASE Education Foundation",
+   "url": "https://www.aseeducationfoundation.org/wp-content/uploads/Auto_Test_Specs_Individual-8_2022.pdf",
+   "tier": "B",
+   "reuse": "Structural reference only",
+   "confidence": "High"
+  },
+  {
+   "id": "S03",
+   "title": "ASE A-series task list surveys",
+   "issuer": "ASE (press release) and trade coverage",
+   "url": "https://ase.com/news/ase-a-series-task-list-surveys-help-drive-changes-to-future/",
+   "tier": "B",
+   "reuse": "Cite, do not copy",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S04",
+   "title": "World Forum for Harmonization of Vehicle Regulations (WP.29) overview",
+   "issuer": "globalautoregs.com (secondary); primary is UNECE",
+   "url": "https://globalautoregs.com/world_forum",
+   "tier": "C",
+   "reuse": "Cite only",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S05",
+   "title": "UN R155 cybersecurity and R156 software updates",
+   "issuer": "UK Vehicle Certification Agency",
+   "url": "https://www.vehicle-certification-agency.gov.uk/connected-and-automated-vehicles/cyber-security-and-software-updating/",
+   "tier": "A",
+   "reuse": "Cite and link",
+   "confidence": "High"
+  },
+  {
+   "id": "S06",
+   "title": "Federal Motor Vehicle Safety Standards (FMVSS), 49 CFR Part 571",
+   "issuer": "NHTSA / US government",
+   "url": "https://www.nhtsa.gov/laws-regulations/fmvss?page=6",
+   "tier": "A",
+   "reuse": "Public-domain US government text; cite section numbers",
+   "confidence": "High"
+  },
+  {
+   "id": "S07",
+   "title": "MIT OCW 2.61 Internal Combustion Engines (Spring 2017)",
+   "issuer": "MIT OpenCourseWare (Wai Cheng)",
+   "url": "https://ocw.mit.edu/courses/2-61-internal-combustion-engines-spring-2017/resources/2-61s17",
+   "tier": "B",
+   "reuse": "CC BY-NC-SA: link and cite; do NOT adapt if SHIFT is monetised",
+   "confidence": "High"
+  },
+  {
+   "id": "S08",
+   "title": "MIT 2.61 lecture 20: super and turbo-charging",
+   "issuer": "MIT OpenCourseWare",
+   "url": "https://www.ocw.mit.edu/courses/2-61-internal-combustion-engines-spring-2017/6b7b9273297b0993ffad47a4f463b641_MIT2_61S17_lec20.pdf",
+   "tier": "B",
+   "reuse": "CC BY-NC-SA",
+   "confidence": "High"
+  },
+  {
+   "id": "S09",
+   "title": "SAE J1979 E/E Diagnostic Test Modes",
+   "issuer": "SAE International",
+   "url": "https://saemobilus.sae.org/content/J1979_201202",
+   "tier": "A",
+   "reuse": "Teach public structure only; do not reproduce SAE tables",
+   "confidence": "High"
+  },
+  {
+   "id": "S10",
+   "title": "SAE J3016 Levels of Driving Automation",
+   "issuer": "SAE International (with ISO)",
+   "url": "https://sae.org/news/2021/06/sae-revises-levels-of-driving-automation",
+   "tier": "A",
+   "reuse": "Cite; SAE trademarked the levels",
+   "confidence": "High"
+  },
+  {
+   "id": "S11",
+   "title": "ISO 11898 CAN and ISO 14229 UDS",
+   "issuer": "ISO via ANSI webstore",
+   "url": "https://webstore.ansi.org/transportation/controller-area-network.aspx",
+   "tier": "A",
+   "reuse": "Cite; teach concepts in own words",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S12",
+   "title": "EPA Enforcement Policy on Vehicle and Engine Tampering and Aftermarket Defeat Devices",
+   "issuer": "US EPA",
+   "url": "https://www.epa.gov/sites/production/files/2020-12/documents/epatamperingpolicy-enforcementpolicyonvehicleandenginetampering.pdf",
+   "tier": "A",
+   "reuse": "US government text; cite",
+   "confidence": "High"
+  },
+  {
+   "id": "S13",
+   "title": "How Do All-Electric Cars Work?",
+   "issuer": "US DOE Alternative Fuels Data Center",
+   "url": "https://afdc.energy.gov/vehicles/how-do-all-electric-cars-work",
+   "tier": "A",
+   "reuse": "US government; cite and link",
+   "confidence": "High"
+  },
+  {
+   "id": "S14",
+   "title": "How Do Fuel Cell Electric Cars Work?",
+   "issuer": "US DOE AFDC",
+   "url": "https://afdc.energy.gov/vehicles/how-do-fuel-cell-electric-cars-work",
+   "tier": "A",
+   "reuse": "US government; cite",
+   "confidence": "High"
+  },
+  {
+   "id": "S15",
+   "title": "FIA 2026 Formula 1 Power Unit Technical Regulations (Issue 4)",
+   "issuer": "FIA",
+   "url": "https://FIA.com/sites/default/files/fia_2026_formula_1_technical_regulations_pu_-_issue_4_-_2023-10-25.pdf",
+   "tier": "A",
+   "reuse": "Cite; do not reproduce regulation text",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S16",
+   "title": "Turbo Tech 103: compressor maps",
+   "issuer": "Garrett Motion",
+   "url": "https://www.garrettmotion.com/wp-content/uploads/2019/10/GAM_Turbo-Tech-103_Expert-1.pdf",
+   "tier": "B",
+   "reuse": "Cite and link",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S17",
+   "title": "Directive 2014/45/EU on periodic roadworthiness tests",
+   "issuer": "European Parliament and Council (UK-hosted legislation.gov.uk copy)",
+   "url": "https://www.legislation.gov.uk/eudr/2014/45/article/5?view=plain",
+   "tier": "A",
+   "reuse": "Public legal text; cite",
+   "confidence": "High"
+  },
+  {
+   "id": "S18",
+   "title": "Toyota/Lexus Technical Information System (TIS) subscription terms",
+   "issuer": "Toyota via Snap-on",
+   "url": "https://techinfo.snapon.com/TIS/Register.aspx",
+   "tier": "A",
+   "reuse": "Link out only; never redistribute",
+   "confidence": "High"
+  },
+  {
+   "id": "S19",
+   "title": "Bosch Automotive Handbook, 11th edition",
+   "issuer": "Robert Bosch GmbH / Wiley",
+   "url": "https://bookshop.org/p/books/automotive-handbook/2febbd4fc8bba60d",
+   "tier": "B",
+   "reuse": "Cite as further reading only; no reproduction",
+   "confidence": "High"
+  },
+  {
+   "id": "S20",
+   "title": "Review of failure modes and safety strategies of lithium-ion batteries",
+   "issuer": "Peer-reviewed open-access review (PMC)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13336748/",
+   "tier": "B",
+   "reuse": "Open access; check licence per article",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S21",
+   "title": "Safety Precautions for Hybrid/Electric Vehicles",
+   "issuer": "Hella Gutmann (tool maker)",
+   "url": "https://www.hella-gutmann.com/fileadmin/Manuals/html/mt-hv/en-US/257340171.html",
+   "tier": "C",
+   "reuse": "Cite for principle only",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S22",
+   "title": "Importance of de-energizing EV and hybrid vehicles",
+   "issuer": "ALLDATA",
+   "url": "https://www.alldata.com/ca/en/the-importance-of-de-energizing-ev-and-hybrid-vehicles",
+   "tier": "C",
+   "reuse": "Cite for principle only",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S23",
+   "title": "Oil classification systems",
+   "issuer": "Petro-Canada Lubricants (Lube Source handbook)",
+   "url": "https://petrocanadalubricants.com/en-cu/lube-source-handbook/automotive/introduction/oil-classification-systems",
+   "tier": "C",
+   "reuse": "Cite; paraphrase",
+   "confidence": "High"
+  },
+  {
+   "id": "S24",
+   "title": "Brake fluid sources (FMVSS 116 plus trade explainers)",
+   "issuer": "NHTSA (S06) and trade sources",
+   "url": "https://rymax-lubricants.com/updates/what-is-brake-fluid",
+   "tier": "C",
+   "reuse": "Cite principle; numbers must come from FMVSS 116 text",
+   "confidence": "Low"
+  },
+  {
+   "id": "S25",
+   "title": "Deciphering a tire sidewall",
+   "issuer": "Tomorrow's Technician (trade)",
+   "url": "https://www.tomorrowstechnician.com/deciphering-tire-sidewall/",
+   "tier": "C",
+   "reuse": "Cite; paraphrase",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S26",
+   "title": "Race car vehicle dynamics and design applied to Formula Student",
+   "issuer": "E.J. Goodman, Aston University (MPhil)",
+   "url": "https://publications.aston.ac.uk/id/eprint/21810",
+   "tier": "B",
+   "reuse": "Cite; do not copy",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S27",
+   "title": "NASCAR Next Gen specification (trade and encyclopedia coverage)",
+   "issuer": "Speedsport, Motor Authority, Wikipedia",
+   "url": "https://www.speedsport.com/nascar/nascar-cup-series/the-nuts-bolts-of-nascar-next-gen/",
+   "tier": "C",
+   "reuse": "Cite with caution",
+   "confidence": "Low"
+  },
+  {
+   "id": "S28",
+   "title": "WRC Rally1 regulation coverage",
+   "issuer": "Motorsport.com, DirtFish, Autocar",
+   "url": "https://www.motorsport.com/wrc/news/wrc-to-abandon-hybrid-powered-rally1-cars-from-2025/10580831/",
+   "tier": "C",
+   "reuse": "Cite with date",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S29",
+   "title": "What Is a JDM Car?",
+   "issuer": "Capital One Cars / JDMBuySell",
+   "url": "https://www.capitalone.com/cars/learn/finding-the-right-car/what-is-a-jdm-car/3496",
+   "tier": "C",
+   "reuse": "Cite definition",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S30",
+   "title": "Diesel aftertreatment training notes",
+   "issuer": "University of Malta (staff notes)",
+   "url": "https://staff.um.edu.mt/mario.a.farrugia/MotorsIncTrainingAftertreatment1.pdf",
+   "tier": "B",
+   "reuse": "Cite; paraphrase",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S31",
+   "title": "Jack stands 101 and shop safety coverage",
+   "issuer": "Fleet Maintenance; Tire Review; NIOSH/CDC",
+   "url": "https://www.fleetmaintenance.com/in-the-bay/shop-equipment/article/55363166/how-to-safely-use-jack-stands",
+   "tier": "C",
+   "reuse": "Cite principle",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S32",
+   "title": "Gasoline knock resistance and octane (DOE lab paper)",
+   "issuer": "US DOE OSTI",
+   "url": "https://www.osti.gov/pages/servlets/purl/1969816",
+   "tier": "B",
+   "reuse": "US government; cite",
+   "confidence": "High"
+  },
+  {
+   "id": "S33",
+   "title": "Charging connector overview",
+   "issuer": "US Joint Office of Energy and Transportation",
+   "url": "https://driveelectric.gov/charging-connector",
+   "tier": "A",
+   "reuse": "US government; cite",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S34",
+   "title": "Vehicle E/E architecture and technologies enabling the software-defined vehicle",
+   "issuer": "SAE Technical Paper 2024-01-2035",
+   "url": "https://saemobilus.sae.org/downloads/papers/2024-01-2035/Full%20Text%20PDF",
+   "tier": "B",
+   "reuse": "Cite",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S35",
+   "title": "Advanced high-strength steel in body structures",
+   "issuer": "WorldAutoSteel / AHSS Insights",
+   "url": "https://ahssinsights.org/tag/steel-e-motive/",
+   "tier": "C",
+   "reuse": "Cite with bias note",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S36",
+   "title": "Open-source CAD and CFD in engineering education",
+   "issuer": "Botha and van Niekerk, North-West University (IRSPBL)",
+   "url": "https://journals.aau.dk/index.php/IRSPBL/article/view/11082",
+   "tier": "B",
+   "reuse": "Cite",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S37",
+   "title": "Automotive Technology OER guide",
+   "issuer": "South Texas College library",
+   "url": "https://libguides.southtexascollege.edu/autotech/autotechoer",
+   "tier": "D",
+   "reuse": "Discovery aid; check each licence",
+   "confidence": "Low"
+  },
+  {
+   "id": "S38",
+   "title": "UN Regulation No. 13-H (light-vehicle braking) consolidated text",
+   "issuer": "UNECE, published via EUR-Lex (2023/401)",
+   "url": "https://eur-lex.europa.eu/eli/reg/2023/401/oj/eng",
+   "tier": "A",
+   "reuse": "Public legal text; cite section numbers",
+   "confidence": "High"
+  },
+  {
+   "id": "S39",
+   "title": "ISO 26262 functional safety overview",
+   "issuer": "TUV SUD and itemis glossary (secondary)",
+   "url": "https://www.tuvsud.com/en-us/services/testing/functional-safety-testing/iso-26262-automotive",
+   "tier": "C",
+   "reuse": "Teach concepts in own words",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S40",
+   "title": "IIHS test protocols and technical information",
+   "issuer": "Insurance Institute for Highway Safety",
+   "url": "https://www.iihs.org/ratings/about-our-tests/test-protocols-and-technical-information",
+   "tier": "B",
+   "reuse": "Cite and link",
+   "confidence": "High"
+  },
+  {
+   "id": "S41",
+   "title": "Euro NCAP rating structure (2026)",
+   "issuer": "evkx.net (secondary)",
+   "url": "https://evkx.net/en/technology/safety/crashtesting/",
+   "tier": "D",
+   "reuse": "Do not cite as evidence",
+   "confidence": "Low"
+  },
+  {
+   "id": "S42",
+   "title": "OEM service information website directory (NASTF-derived)",
+   "issuer": "AA1Car / NASTF listing",
+   "url": "https://www.aa1car.com/library/oemwebsites.htm",
+   "tier": "C",
+   "reuse": "Link out only",
+   "confidence": "Low"
+  },
+  {
+   "id": "S43",
+   "title": "Kei car regulations",
+   "issuer": "Encyclopedia article (secondary)",
+   "url": "https://en.wikipedia.org/wiki/Kei_car",
+   "tier": "D",
+   "reuse": "Do not cite as evidence",
+   "confidence": "Low"
+  },
+  {
+   "id": "S44",
+   "title": "FMVSS No. 116 Motor vehicle brake fluids (49 CFR 571.116)",
+   "issuer": "NHTSA / US government (read via Cornell LII and eCFR)",
+   "url": "https://www.law.cornell.edu/cfr/text/49/571.116",
+   "tier": "A",
+   "reuse": "US government text; cite section numbers",
+   "confidence": "High"
+  },
+  {
+   "id": "S45",
+   "title": "NHTSA interpretation 12089 on brake fluid labelling",
+   "issuer": "NHTSA",
+   "url": "https://www.nhtsa.gov/interpretations/12089mls",
+   "tier": "A",
+   "reuse": "US government text; cite",
+   "confidence": "High"
+  },
+  {
+   "id": "S46",
+   "title": "FMVSS No. 139 New pneumatic radial tires for light vehicles",
+   "issuer": "NHTSA / US government (Cornell LII)",
+   "url": "https://www.law.cornell.edu/cfr/text/49/571.139",
+   "tier": "A",
+   "reuse": "US government text; cite",
+   "confidence": "High"
+  },
+  {
+   "id": "S47",
+   "title": "Beginner's Guide to Aeronautics: 4-stroke internal combustion engine",
+   "issuer": "NASA Glenn Research Center",
+   "url": "https://www.grc.nasa.gov/WWW/k-12/BGP/engopt.html",
+   "tier": "A",
+   "reuse": "NASA material generally reusable with credit: confirm terms for images",
+   "confidence": "High"
+  },
+  {
+   "id": "S48",
+   "title": "NFPA Electric Vehicle Emergency Field Guide",
+   "issuer": "NFPA (copy hosted by Mass.gov)",
+   "url": "https://www.mass.gov/doc/electric-vehicle-efg-classroom-edition/download",
+   "tier": "B",
+   "reuse": "Cite; link out",
+   "confidence": "Medium"
+  },
+  {
+   "id": "S49",
+   "title": "Electric Vehicle Safety Training Resources for First and Second Responders",
+   "issuer": "US DOE AFDC",
+   "url": "https://afdc.energy.gov/vehicles/electric_responders.html",
+   "tier": "A",
+   "reuse": "US government; link",
+   "confidence": "High"
+  }
+ ]
+}
